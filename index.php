@@ -30,7 +30,6 @@ session_destroy();
   <div class='grid grid-cols-3'>
     <div class='<?= $questionContainer ?>'>
       <p class='<?= $questionTitleStyle ?>'>Question 1</p>
-      <form action="#">
         <div>
           <label for="input_question_1" class="<?= $labelStyle ?>">Member Type</label>
           <div class="<?= $inputConatainer ?>">
@@ -39,7 +38,6 @@ session_destroy();
             <button id="clear_question_1" class="<?= $submitButton ?>">Clear</button>
           </div>
         </div>
-      </form>
       <div class='<?= $consoleContainer ?>'>
         <p class='<?= $consoleTitleStyle ?>'>Console: </p>
         <p id='console_question_1'></p>
@@ -47,7 +45,6 @@ session_destroy();
     </div>
     <div class='<?= $questionContainer ?>'>
       <p class='<?= $questionTitleStyle ?>'>Question 2</p>
-      <form action="#">
         <div>
           <label for="input_question_2" class="<?= $labelStyle ?>">Purchase Value</label>
           <div class="<?= $inputConatainer ?>">
@@ -56,7 +53,6 @@ session_destroy();
             <button id="clear_question_2" class="<?= $submitButton ?>">Clear</button>
           </div>
         </div>
-      </form>
       <div class='<?= $consoleContainer ?>'>
         <p class='<?= $consoleTitleStyle ?>'>Console: </p>
         <p id='console_question_2'></p>
@@ -64,7 +60,6 @@ session_destroy();
     </div>
     <div class='<?= $questionContainer ?>'>
       <p class='<?= $questionTitleStyle ?>'>Question 3</p>
-      <form action="#">
         <div>
           <label for="input_question_3_startDate" class="<?= $labelStyle ?>">Start Date</label>
           <div class="<?= $inputConatainer ?>">
@@ -79,7 +74,6 @@ session_destroy();
             <button id="clear_question_3" class="<?= $submitButton ?>">Clear</button>
           </div>
         </div>
-      </form>
       <div class='<?= $consoleContainer ?>'>
         <p class='<?= $consoleTitleStyle ?>'>Console: </p>
         <p id='console_question_3'></p>
